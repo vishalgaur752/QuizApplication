@@ -1,7 +1,6 @@
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 public class Login extends JFrame implements ActionListener {
     JButton rules, Back;
