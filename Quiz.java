@@ -11,7 +11,7 @@ public class Quiz extends JFrame implements ActionListener {
     JButton next, lifeLine, submit;
     JRadioButton opt1, opt2, opt3, opt4;
     ButtonGroup groupOptions;
-    public static int timer = 10;
+    public static int timer = 30;
     public static int ans_given = 0;
     public static int count = 0;
     public static int score = 0;
