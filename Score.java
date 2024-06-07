@@ -18,7 +18,7 @@ public class Score extends JFrame implements ActionListener {
 
         JLabel heading = new JLabel("Thank you " + name + " for Playing Simple.");
         heading.setBounds(45, 30, 700, 30);
-        heading.setFont(new Font("tahoma", Font.PLAIN, 26));
+        heading.setFont(new Font("Comic Sans MS", Font.PLAIN, 26));
         add(heading);
 
         JLabel Finalscore = new JLabel("Your score is " + score);

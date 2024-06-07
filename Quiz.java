@@ -119,19 +119,19 @@ public class Quiz extends JFrame implements ActionListener {
         opt2 = new JRadioButton();
         opt2.setBounds(90, 420, 700, 30);
         opt2.setBackground(Color.WHITE);
-        opt2.setFont(new Font("dialog", Font.PLAIN, 20));
+        opt2.setFont(new Font("Comic Sans MS", Font.PLAIN, 20));
         add(opt2);
 
         opt3 = new JRadioButton();
         opt3.setBounds(90, 460, 700, 30);
         opt3.setBackground(Color.WHITE);
-        opt3.setFont(new Font("dialog", Font.PLAIN, 20));
+        opt3.setFont(new Font("Comic Sans MS", Font.PLAIN, 20));
         add(opt3);
 
         opt4 = new JRadioButton();
         opt4.setBounds(90, 500, 700, 30);
         opt4.setBackground(Color.WHITE);
-        opt4.setFont(new Font("dialog", Font.PLAIN, 20));
+        opt4.setFont(new Font("Comic Sans MS", Font.PLAIN, 20));
         add(opt4);
 
         groupOptions = new ButtonGroup();
@@ -220,12 +220,12 @@ public class Quiz extends JFrame implements ActionListener {
     public void paint(Graphics g) { // paint method apne ap col hota hai
         super.paint(g);
         String time = "Time left - " + timer + " seconds";
-        g.setColor(Color.red);
-        g.setFont(new Font("Tahoma", Font.BOLD, 25));
+        g.setColor(new Color(237, 66, 66));
+        g.setFont(new Font("Comic Sans MS", Font.BOLD, 20));
         if (timer > 0) {
-            g.drawString(time, 1000, 400);
+            g.drawString(time, 900, 400);
         } else {
-            g.drawString("Times up!!", 1000, 400);
+            g.drawString("Comic Sans MS", 900, 400);
         }
         timer--;
         try {

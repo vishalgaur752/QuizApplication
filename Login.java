@@ -9,18 +9,18 @@ public class Login extends JFrame implements ActionListener {
     Login() {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.jpeg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.jpg"));
         JLabel image = new JLabel(i1);
-        image.setBounds(0, 0, 600, 500);
+        image.setBounds(0, 0, 600, 560);
         add(image);
-        
-        JLabel heading = new JLabel("Simple Minds");
+
+        JLabel heading = new JLabel("Learn Java");
         heading.setBounds(750, 60, 300, 45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 45));
         heading.setForeground(new Color(30, 144, 254));// RGB
         add(heading);
 
-        JLabel name = new JLabel("Enter your name");
+        JLabel name = new JLabel("Enter your name.");
         name.setBounds(810, 150, 300, 20);
         name.setFont(new Font("Mongolian Baiti", Font.BOLD, 18));
         name.setForeground(new Color(30, 144, 254));// RGB
