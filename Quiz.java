@@ -20,10 +20,10 @@ public class Quiz extends JFrame implements ActionListener {
     Quiz(String name) {
         this.name = name;
         setBounds(108, 0, 1300, 824);
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(255, 238, 169));
         setLayout(null);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/quiz.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/quiz.png"));
         JLabel image = new JLabel(i1);
         image.setBounds(0, 0, 1300, 300);
         add(image);

@@ -10,13 +10,13 @@ public class Rules extends JFrame implements ActionListener {
     Rules(String name) {
         this.name = name;
 
-        getContentPane().setBackground(Color.WHITE);
+        getContentPane().setBackground(new Color(255, 238, 169));
         setLayout(null);
 
         JLabel heading = new JLabel("Welcome " + name + " to Learn Java");
         heading.setBounds(170, 20, 700, 30);
         heading.setFont(new Font("arial", Font.BOLD, 28));
-        heading.setForeground(new Color(30, 144, 254));// RGB
+        heading.setForeground(new Color(255, 125, 41));// RGB
         add(heading);
 
         JLabel rules = new JLabel();
